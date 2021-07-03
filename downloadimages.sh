@@ -713,6 +713,5 @@ for i in *.jpg; do
   let a=a+1
 done
 
-cd ..
 mv ./images/ ..
 
