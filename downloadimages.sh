@@ -708,5 +708,6 @@ wget https://lh6.googleusercontent.com/-M6BRAUZHPyo/UfbbKobVOKI/AAAAAAAAK_M/4WIH
 # rename files
 ls -v | cat -n | while read n f; do mv -n "$f" "$n.jpg"; done 
 
+cd ..
 mv ./images/ ..
 
