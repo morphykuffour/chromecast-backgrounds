@@ -1,3 +1,6 @@
+mkdir -p images;
+cd ./images/;
+
 wget https://lh6.googleusercontent.com/-A0tXm8gjfMU/U08VDMRGtuI/AAAAAAAAvrI/IQEscTGZyJY/s1920-w1920-h1080-c/IMG_0293%2Bhe.jpg
 wget https://lh6.googleusercontent.com/-3LiF-MBl6OE/UO5TXZ724aI/AAAAAAAAE50/JWLqdeEM9QY/s1920-w1920-h1080-c/Colorado%2BRiver%2BSunset.jpg
 wget https://lh4.googleusercontent.com/-wkrGBuk0DoA/Us9JnUoXnTI/AAAAAAAAkTA/yDQexzLKhKY/s1920-w1920-h1080-c/DSC_0660.JPG
@@ -705,7 +708,7 @@ wget https://lh6.googleusercontent.com/-M6BRAUZHPyo/UfbbKobVOKI/AAAAAAAAK_M/4WIH
 # rename files
 a=1
 for i in *.jpg; do
-  new=$(printf "%06d.jpg" "$a") #06 pad to length of 6
+  new=$(printf "%010d.jpg" "$a") #010 pad to length of 10
   mv -i -- "$i" "$new"
   let a=a+1
 done
