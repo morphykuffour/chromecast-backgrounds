@@ -712,3 +712,7 @@ for i in *.jpg; do
   mv -i -- "$i" "$new"
   let a=a+1
 done
+
+cd ..
+mv ./images/ ..
+
