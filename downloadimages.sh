@@ -705,7 +705,7 @@ wget https://lh6.googleusercontent.com/-M6BRAUZHPyo/UfbbKobVOKI/AAAAAAAAK_M/4WIH
 # rename files
 a=1
 for i in *.jpg; do
-  new=$(printf "%04d.jpg" "$a") #04 pad to length of 4
+  new=$(printf "%06d.jpg" "$a") #06 pad to length of 6
   mv -i -- "$i" "$new"
   let a=a+1
 done
