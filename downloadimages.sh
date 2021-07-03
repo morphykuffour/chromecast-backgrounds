@@ -1,5 +1,5 @@
-mkdir -p images;
-cd ./images/;
+mkdir -p images
+cd ./images/
 
 wget https://lh6.googleusercontent.com/-A0tXm8gjfMU/U08VDMRGtuI/AAAAAAAAvrI/IQEscTGZyJY/s1920-w1920-h1080-c/IMG_0293%2Bhe.jpg
 wget https://lh6.googleusercontent.com/-3LiF-MBl6OE/UO5TXZ724aI/AAAAAAAAE50/JWLqdeEM9QY/s1920-w1920-h1080-c/Colorado%2BRiver%2BSunset.jpg
